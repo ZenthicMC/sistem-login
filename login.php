@@ -7,11 +7,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>E-Perpus | Login</title>
-    <link rel="stylesheet" href="../admin/assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i">
-    <link rel="stylesheet" href="../admin/assets/fonts/fontawesome-all.min.css">
-    <link rel="stylesheet" href="../admin/assets/fonts/font-awesome.min.css">
-    <link rel="stylesheet" href="../admin/assets/fonts/fontawesome5-overrides.min.css">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="./assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome5-overrides.min.css">
 </head>
 <body class="bg-gradient-primary">
     <div class="container">
@@ -21,7 +21,7 @@
                     <div class="card-body p-0">
                         <div class="row">
                             <div class="col-lg-6 d-none d-lg-flex">
-                                <div class="flex-grow-1 bg-login-image" style="background-image: url(&quot;../admin/assets/img/dogs/libary.jpg&quot;);"></div>
+                                <div class="flex-grow-1 bg-login-image" style="background-image: url(&quot;./assets/img/dogs/libary.jpg&quot;);"></div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="p-5">
@@ -49,8 +49,8 @@
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.3.0/dist/sweetalert2.all.min.js" integrity="sha256-nk6ExuG7ckFYKC1p3efjdB14TU+pnGwTra1Fnm6FvZ0=" crossorigin="anonymous"></script>
-    <script src="../admin/assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="../admin/assets/js/theme.js"></script>
+    <script src="./assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="./assets/js/theme.js"></script>
 </body>
 </html>
 <?php if(isset($_POST['login'])) : ?>
